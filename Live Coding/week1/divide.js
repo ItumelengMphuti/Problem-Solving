@@ -5,7 +5,6 @@
 // divide(9, 3);   // 3
 // divide(5, 0);   // throws DivisionByZeroError
 
-//NB CUSTOM ERRORS!!
 class DivisionByZeroError extends Error {
     constructor() {
         super("Cannot divede by zero");
