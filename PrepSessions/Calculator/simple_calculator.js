@@ -39,7 +39,7 @@ function calculate(val1, val2, operator) {
 
 // Examples
 console.log(calculate("   ", 5, "add"));
-// console.log(calculate("Infinity", 2, "add"));
+console.log(calculate("Infinity", 2, "add"));
 15;
 console.log(calculate(10, 0, "subtract"));
 // 5
